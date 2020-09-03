@@ -1,0 +1,112 @@
+/*------- BASIC SETUP --------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(254,219,102);
+}
+
+/*------ IMAGE -------*/
+img{
+    position: absolute;
+    left: 300px;
+    top: 90px;
+    width: 400px;
+    height: 350px;
+    z-index: 1;
+}
+
+/*------- TEXT --------*/
+h1, p{
+    color: rgb(76,188,198);
+    font-family: 'Alata', sans-serif;
+    z-index: 1;
+}
+
+h1{
+    font-size: 20px;
+    position: absolute;
+    left: 740px;
+    top: 150px;
+    
+}
+
+p{
+    font-size: 10px;
+    position: absolute;
+    left: 740px;
+    top: 180px;
+    
+}
+
+/*------- FORM ---------*/
+#grupo{
+    position: relative;
+    top: 90px;
+    left: 300px;
+    width: 400px;
+    height: 270px;
+    
+}
+
+#form{
+    position: absolute;
+    display: block;
+    height: 350px;
+    width: 800px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: white;
+}
+
+.campo{
+    margin-bottom: 5px;
+    position: relative;
+    top: 34%;
+    left: 55%;
+}
+
+.campo label{
+    margin-bottom: 2px;
+    color: rgb(76,188,198);
+    font-size: 12px;
+    font-family: 'Alata', sans-serif;
+    display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="password"]{
+    padding: 1px;
+    width: 250px;
+    display: block;
+
+}
+
+/*------ BUTTOM -------*/
+button{
+    position: absolute;
+    top: 275px;
+    left: 535px;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(76,188,198);
+    border: 1px solid;
+    font-family: 'Alata', sans-serif;
+    z-index: 1;
+}
+
+button:hover{
+    border: 1px solid rgb(76,188,198);
+}
+
+
+
+
+
+
+
+
+
