@@ -5,69 +5,50 @@ texto:  rgb(76,188,198)*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100vh;
     background-color: rgb(254,219,102);
+}
+
+.form-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.form {
     background-color: white;
-    height: 46%;
-    width: 50%;
-    position: relative;
-    box-shadow: 5px 5px 5px rgba(0.2,0,0,0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    height: 33rem;
 }
 
-.img img{
-    width: 22rem;
-    height: 19rem;
+img{
+    width: 19rem;
+    height: 17rem;
 }
 
 .text {
+    font-family: 'Alata', sans-serif;
     color: rgb(76,188,198);
-    font-family: 'Alata';
-    position: absolute;
-    left: 23rem;
-    top: 0.5rem;
+    margin: 0 2%;
 }
 
-.inputs {
-    color: rgb(76,188,198);
-    font-family: 'Alata', sans-serif; 
-    position: absolute;
-    left: 23rem;
+.form-input-item {
+    margin: 1%;
+    padding: 2%;
+    font-family: 'Alata', sans-serif;
+    color: rgb(76,188,198); 
 }
 
-.inputs input  {
+.form-input-item input {
     color: rgb(72, 67, 89);
     outline: 0;
-    width: 277px;
-}
-
-.name {
-    top: 5.5rem;
-}
-
-.email {
-    top: 8.5rem;
-}
-
-.password {
-    top: 11.5rem;
 }
 
 button {
-    position: absolute;
-    left: 29rem;
-    top: 15.5rem;
     width: 6rem;
     height: 2rem;
     outline: 0;
@@ -75,12 +56,11 @@ button {
     border: none;
     color: white;
     background-color:  rgb(76,188,198);
+    margin-top: 5%;
+    margin-left: 35%;
 }
 
 button:hover {
     background-color:  rgb(122,222,216);
 }
-
-
-
 
