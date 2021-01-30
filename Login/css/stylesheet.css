@@ -20,7 +20,7 @@
     flex-direction: column;
     background-color: white;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    height: 33rem;
+    height: 35rem;
 }
 
 img{
@@ -35,8 +35,8 @@ img{
 }
 
 .form-input-item {
-    margin: 1%;
-    padding: 2%;
+    margin: 2.5%;
+    
     font-family: 'Alata', sans-serif;
     color: rgb(76,188,198); 
 }
@@ -44,7 +44,11 @@ img{
 .form-input-item input {
     color: rgb(72, 67, 89);
     outline: 0;
+    display: block;
+    width: 15rem;
 }
+
+
 
 button {
     width: 6rem;
