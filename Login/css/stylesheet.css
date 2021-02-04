@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Alata', sans-serif;
+    color: rgb(76,188,198); 
 }
 
 .container {
@@ -29,16 +30,11 @@ img{
 }
 
 .text {
-    font-family: 'Alata', sans-serif;
-    color: rgb(76,188,198);
     margin: 0 2%;
 }
 
 .form-input-item {
     margin: 2.5%;
-    
-    font-family: 'Alata', sans-serif;
-    color: rgb(76,188,198); 
 }
 
 .form-input-item input {
@@ -48,8 +44,6 @@ img{
     width: 15rem;
 }
 
-
-
 button {
     width: 6rem;
     height: 2rem;
@@ -58,8 +52,8 @@ button {
     border: none;
     color: white;
     background-color:  rgb(76,188,198);
-    margin-top: 5%;
-    margin-left: 35%;
+    margin-top: 2%;
+    margin-left: 32%;
 }
 
 button:hover {
