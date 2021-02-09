@@ -22,11 +22,13 @@
     background-color: white;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     height: 35rem;
+    border-radius: 3%;
 }
 
 img{
     width: 19rem;
     height: 17rem;
+    border-radius: 3% 3% 0 0;
 }
 
 .text {
