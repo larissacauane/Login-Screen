@@ -1,9 +1,13 @@
-# Sign Up Form
-Sign up form made with:
-* HTML5 
-* CSS3 
+# Sign Up Formulário
+## :rocket: Tecnologias
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+* HTML5
+* CSS3
 
+## :computer: Projeto
+Esse projeto é um fomulário para criar uma conta. 
 
-<img src="https://i.pinimg.com/originals/bb/db/5e/bbdb5eeb790367c336430d51ca91321c.gif">
+## :sparkles: Imagens
+<img src="https://i.pinimg.com/originals/ce/82/c3/ce82c3d3b91f62a1c81833b75d077830.png">
 
 
